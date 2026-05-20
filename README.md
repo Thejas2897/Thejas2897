@@ -1,6 +1,6 @@
 # Thejas Manjunath — SRE / DevOps / Platform Engineer
 
-I build reliable, observable, and compliant infrastructure. Two years of production SRE work across a pharmaceutical GxP platform (Deloitte / Eli Lilly) and a financial data platform (QiCAP Markets), with a focus on performance engineering, compliance automation, and incident reduction.
+I build reliable, observable, and compliant infrastructure. Two years of production SRE work across a pharmaceutical GxP platform (Deloitte / Eli Lilly), with a focus on performance engineering, compliance automation, and incident reduction.
 
 **What I work on:**
 - Redis performance engineering — empirical benchmarking, latency tuning, production-readiness validation
