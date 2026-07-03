@@ -1,6 +1,6 @@
 # Thejas Manjunath — AI/ML Specialist
 
-I build production-grade GenAI systems: Retrieval-Augmented Generation pipelines, agentic orchestration, and cloud-deployed LLM applications — grounded by 2 years of production operations experience as a differentiator, not a detour.
+I build end-to-end GenAI systems: Retrieval-Augmented Generation pipelines, agentic orchestration, and cloud-deployed LLM applications — grounded by 2 years of production operations experience as a differentiator, not a detour.
 
 **What I work on:**
 
@@ -44,7 +44,7 @@ The Redis performance engineering work referenced above (QiCAP Markets) is docum
 - **9× p50 write latency reduction** — Redis appendfsync tuning, measured on bare-metal hardware (QiCAP Markets)
 - **371% SET throughput increase** — same tuning exercise, 100k mixed-workload benchmark
 - **99,601 req/s throughput ceiling** — 6-node Redis Cluster simulation, zero request loss after resolving a connection flood
-- **Zero slow-query log entries** — eliminated via SCAN/HSCAN replacing KEYS/HGETALL in production-equivalent benchmarking
+- **BGSAVE fork spike eliminated (49 ms)** — diagnosed and resolved via 14-parameter tuning across 6 Redis config groups; identified the architectural ceiling where config cannot resolve HGETALL latency on 1 GB+ hashes (fix requires HSCAN with bounded batch sizes)
 - **100/500/800-token chunking comparison** — empirically identified optimal RAG chunk size using real tiktoken-measured counts
 
 ---
