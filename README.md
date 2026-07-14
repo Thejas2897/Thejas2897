@@ -19,9 +19,6 @@ DevOps / SRE with 2 years of production experience across GxP-regulated (Deloitt
 |---|---|
 | [redis-performance-toolkit](https://github.com/Thejas2897/redis-performance-toolkit) | 6-node Redis Cluster simulation, 100k mixed-workload stress test, 9x p50 latency reduction, 371% throughput increase, 5-script backup/restore/migration toolkit with idempotent restore logic |
 | [observability-stack](https://github.com/Thejas2897/observability-stack) | Metrics + logs stack — Prometheus, Grafana, ELK, AlertManager |
-| [compliance-cicd-pipeline](https://github.com/Thejas2897/compliance-cicd-pipeline) | FDA 21 CFR Part 11 → SOX/PCI-DSS-style change-control gating, audit trail design |
-| [kafka-monitoring-pipeline](https://github.com/Thejas2897/kafka-monitoring-pipeline) | Event-driven pipeline — Kafka, consumer lag alerting, broker failure recovery |
-| [aiops-incident-responder](https://github.com/Thejas2897/aiops-incident-responder) | Anomaly detection + LLM-generated incident summaries |
 
 ---
 
