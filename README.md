@@ -18,7 +18,11 @@ DevOps / SRE with 2 years of production experience across GxP-regulated (Deloitt
 | Project | What it demonstrates |
 |---|---|
 | [redis-performance-toolkit](https://github.com/Thejas2897/redis-performance-toolkit) | 6-node Redis Cluster simulation, 100k mixed-workload stress test, 9x p50 latency reduction, 371% throughput increase, 5-script backup/restore/migration toolkit with idempotent restore logic |
-| [observability-stack](https://github.com/Thejas2897/observability-stack) | Metrics + logs stack — Prometheus, Grafana, ELK, AlertManager |
+| [observability-stack](https://github.com/Thejas2897/observability-stack) | Full observability stack for a trading API — Prometheus + Grafana metrics, ELK logs, SLO-based AlertManager rules, cut incident post-mortem reconstruction time by 75% |
+| [release-validation-pipeline](https://github.com/Thejas2897/release-validation-pipeline) | Automated release validation — 47 health checks across Jenkins + GitHub Actions, cut validation time from ~4 hrs to 12 min |
+| [terraform-drift-detector](https://github.com/Thejas2897/terraform-drift-detector) | Daily automated Terraform drift detection on AWS — catches unauthorised infrastructure changes before deployment failures |
+| [kubernetes-ops-runbook](https://github.com/Thejas2897/kubernetes-ops-runbook) | Kubernetes operational runbook — manifests, Helm charts, troubleshooting guides for CrashLoopBackOff, OOMKilled, Pending pods |
+| [trade-signal-api](https://github.com/Thejas2897/trade-signal-api) | Python FastAPI trading signal service — the backing application instrumented by observability-stack and redis-performance-toolkit |
 
 ---
 
